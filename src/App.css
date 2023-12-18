@@ -1,38 +1,122 @@
-.App {
+body{
+  
+ /* background-color: black; */
+ background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container{
+  /* background-color: rgb(101, 247, 247); */
+ background: #ff0084;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #33001b, #ff0084);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #33001b, #ff0084); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #FBD3E9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #BB377D, #FBD3E9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #BB377D, #FBD3E9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: url(/public/bmi.jpg);
+  
+background: #FFEEEE;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #DDEFBB, #FFEEEE);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #DDEFBB, #FFEEEE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #acb6e5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #86fde8, #acb6e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #86fde8, #acb6e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  border: 5px solid rgb(69, 91, 188);
+  box-shadow: 1px 2px 13px 4px rgba(126, 126, 236, 0.4);
   text-align: center;
+  /* margin: 70px; */
+  margin-top: 5%;
+  height:40vmax;
+  margin-bottom: 20px;
+  padding: 20px;
+  width: 50%;
+  /* display: flex; */
+  /* flex-direction: column;
+  align-items: center; */
+
+  /* align-items: center; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.height{
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-left: 270px;
+  margin-top: 10px;
+
+}
+#h{
+  margin-right: 20px;
+}
+.weight{
+  display: flex;
+  align-items: center;
+  margin-left: 270px;
+  margin-top: 10px;
+}
+#w{
+  margin-right: 10px;
+}
+#h1{
+  background: #bc4e9c;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f80759, #bc4e9c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+background: #24C6DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #514A9D, #24C6DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #514A9D, #24C6DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+  color: rgb(255, 255, 255);
+  /* background-color: rgb(207, 239, 244); */
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.info{
+  font-family: 'Times New Roman', Times, serif;
+display: flex;
+/* align-items: center; */
+margin-left: 40%;
+font-weight: 600;
+margin-top: 25px;
+
+}
+.ori{
+  color: rgb(221, 32, 29);
+  text-decoration: underline;
+  /* background-color:rgb(34, 33, 27) ; */
+  font-weight: 600;
+  /* font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+  padding: 2px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.spl{
+  margin-top: 0px;
+  margin-left: 8%;
   color: white;
+  padding-left: 30px;
+  padding-top: 5px;
+  background-color: #041942;
 }
 
-.App-link {
-  color: #61dafb;
+.detail{
+  display: flex;
+  align-items: center;
+  margin-left: 270px;
+  margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#name{
+  margin-right: 15px;
 }
+
